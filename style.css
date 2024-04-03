@@ -1,0 +1,94 @@
+.parent{
+    /* background-color: red; */
+        color: red;
+        text-decoration: underline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px;
+        word-spacing: 3px;
+        border: 4px solid black;
+        margin: 20px;
+}
+.co{
+    background-color: aqua;
+    font-size: x-large;
+    padding: 10px;
+    width: fit-content;
+    height: max-content;
+    border-spacing: 19px;
+    border: 4px solid black;
+    margin: 20px;     
+    float: left;
+}
+#spa
+{
+    background-color: yellow;
+    width : fit-content;
+    height: max-content;
+}
+.img
+{
+    width: 400px;
+    border: 10px solid black;
+    padding: 10px;
+    
+}
+.parent1{
+    font-size: 32px;
+    background-color: green;
+    height: 200px;
+}
+.child{
+    font-size: 2em;
+    background-color: red;
+    min-height: 100px;
+    width: 25%;
+    overflow: scroll;
+}
+.button{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: xx-large;
+    margin: 20px auto;
+
+}
+.parent2{
+    ol{
+        background-color: violet;
+    }
+    ul:last-child{
+        /* skeudo class */
+        /* background-color: blue; */
+        background-color: aqua
+        
+    };
+    ul:nth-child(3){
+        li:nth-child(2){
+
+            background-color: red
+        }
+    };
+    ul:first-child{
+        /* skeudo class */
+        background-color: green;
+    
+    };
+}
+.parent4{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.child1{
+    border: 1px solid red;
+    background-color: blanchedalmond;
+    width: 10px;
+    flex-basis: 100px;
+}
+/* #search{
+    flex-grow: 2;
+}
+#cart{
+    flex-grow: 2;
+} */
